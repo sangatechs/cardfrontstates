@@ -129,7 +129,6 @@
   <h2>Maintaining State Integrity Throughout a Round</h2>
   <p>Once a card has been assigned a state, that state should persist unchanged until an explicit game event changes it. A card dealt face-down should remain face-down until a specific reveal event occurs. A card in the face-up state for a specific player should continue to be face-up for that player until the visibility rules change. State should not fluctuate or reset unexpectedly — players rely on the continuity of card states to maintain their understanding of the current game situation.</p>
   <p>If card states could change unexpectedly — due to software errors, synchronization issues, or design inconsistencies — the interface would become unreliable. Players could not trust that a card currently showing face-up will continue to show face-up. They could not trust that a face-down card is staying concealed. The reliability of card state management is a foundational requirement for the interface to function as a trustworthy representation of the game state.</p>
-<p>Once hidden card states are established, <a href="https://digitalcardreveals.lovable.app/">face-up card changes</a> show how digital cards can transition into visible states during gameplay.</p>
 
 
 </div>
